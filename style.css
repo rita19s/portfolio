@@ -1,0 +1,62 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #AA00A2;
+    padding: 20px;
+    margin-bottom: 35px;
+    position: relative;
+    height: 40px;
+}
+
+header img {
+    position: absolute;
+    top: 5px;
+    left: 20px;
+}
+
+.link-header {   
+    color:  #62E200;
+    font-size: 20px;
+    border-top: 5px dotted #AA00A2	;
+    border-bottom: 5px dotted #AA00A2	;
+    text-decoration: none;
+    padding: 4px;
+}
+
+.link-header:hover {
+    font-size: 25px;
+    border-top: 5px dotted #19fc9e ;
+    border-bottom: 5px dotted #19fc9e ;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #ed9561;
+   
+}
+
+
+h1 {
+    text-align: center;
+    color: #AA00A2;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFE900;
+}
+
+footer {
+    background-color: #62E200;
+    padding: 13px;
+}
+
+ul {
+    list-style: url("https://img.icons8.com/?size=24&id=6ZRdxBq3kZzR&format=gif");
+}
+
+.link-text {
+    color: #FFE900;
+    text-decoration: none;
+}
